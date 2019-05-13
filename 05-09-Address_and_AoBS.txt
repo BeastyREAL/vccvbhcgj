@@ -1,0 +1,133 @@
+version-b160e24eb8e9445e
+----------------------------
+Address
+----------------------------
+retcheck - 0x679ee0
+lua_getfield(3 args) - 0x80f7f0 __stdcall
+lua_setfield - 0x8115c0 __fastcall
+lua_tolstring - 0x811c50 __fastcall
+lua_settop - 0x811a10 __cdecl
+lua_toboolean - 0x811b90 __cdecl
+lua_pushvalue - 0x810c30 __cdecl
+lua_pushnumber - 0x810ae0 __stdcall
+lua_pushstring - 0x810b70 __cdecl
+lua_pcall - 0x810590 __cdecl
+lua_pushnil - 0x810a70 __cdecl
+lua_next - 0x810410 __cdecl
+lua_pushboolean - 0x810660 __cdecl
+lua_tonumber - 0x811d90 __stdcall
+lua_pushcclosure - 0x8106e0 __fastcall
+luaD_precall - 0x807dd0 __cdecl
+lua_checkstack - 0x80f260 __cdecl
+lua_createtable - 0x80f480 __cdecl
+lua_insert - 0x80fdb0 __cdecl
+lua_newthread - 0x810260 __cdecl
+lua_newuserdata - 0x810350 __cdecl
+lua_pushthread - 0x810bb0 __cdecl
+lua_rawgeti - 0x810ee0 __cdecl
+lua_rawseti - 0x811060 __cdecl
+lua_rawset - 0x810f70 __cdecl
+lua_rawget - 0x810d90 __cdecl
+lua_remove - 0x811190 __cdecl
+lua_setfenv - 0x8114c0 __cdecl
+lua_setmetatable - 0x811770 __cdecl
+lua_getmetatable - 0x80fac0 __cdecl
+lua_xmove - 0x811f40 __cdecl
+ScriptContextVFTable - 0x7e1dfe //0x1CFEE1C
+lua_close - 0x4e6f30 __thiscall
+lua_touserdata - 0x811ed0 __cdecl
+ContextLevel - protected/changed/removed
+lua_call - 0x80f1d0 __cdecl
+ScriptContextVFTable2 - 0x7E0C76 //0x1CFEE1C
+lua_type - 0x811f00 __cdecl
+luaS_newlstr - 0x80ad80 __cdecl
+luaV_gettable - 0x80e960 __cdecl
+luaV_settable - 0x80ec50 __cdecl
+lua_resume - 0x811350 __cdecl
+index2adr - 0x8068d0 __stdcall
+luaL_ref - 0x80a310 __cdecl
+lua_settable - 0x811980 __cdecl
+lua_gettable - 0x80fc70 __cdecl
+Arith - 0x80b7b0 __cdecl
+luaH_new - 0x809260 __cdecl
+lua_pushlightuserdata - 0x810950 __cdecl
+luaL_getmetafield - 0x809eb0 __cdecl
+lua_yield - 0x812000 __cdecl
+spawn - 0x7f03e0 __cdecl
+luaL_unref - 0x80a610 __cdecl
+lua_topointer - 0x811e20 __cdecl
+lua_gettop - 0x80fcf0 __cdecl
+lua_getupvalue - 0x80fd10 __cdecl
+lua_setupvalue - 0x811ac0 __cdecl
+lua_getfenv - 0x80f700 __cdecl
+print - 0x4f2340 __cdecl
+doverb - 0xc4e4f0 __thiscall
+luaL_error - 0x809cf0 __cdecl
+lua_setreadonly - 0x8118a0 __cdecl
+luaF_newCclousure - 0x808940 __cdecl
+sandboxthread - 0x7f0190 __cdecl
+retflag1 - 0x22F8BF0
+retflag2 - 0x22FBFBC
+retfunc - 0x22F8BC0
+XORCONSTANT  - 0x2030510
+identityflag - protected/changed/removed
+Top - 20
+Base - 24
+Env - 96
+cdt - 44
+v52 = v39 + 56 * v51 + 164 - *(DWORD *)(v39 + 56 * v51 + 164);
+v52 = (int)&v39[14 * v51 + 41] - v39[14 * v51 + 41];
+---------------------------------
+AoBS
+---------------------------------
+DWORD lua_getfield3aob = AoBS::scanner("\x55\x8B\xEC\x83\xEC\x10\x53\x56\x8B\x75\x08\x57\xFF\x75\x0C\x56\xE8\x00\x00\x00\x00\x8B\x55\x10\x8B\xF8\x8B\xCA\x8D\x59\x01\x90\x8A\x01\x41\x84\xC0\x75\xF9\x2B\xCB\x51\x52\x56\xE8\x00\x00\x00\x00\x6A\x01", "xxxxxxxxxxxxxxxxx????xxxxxxxxxxxxxxxxxxxxxxxx????xx");
+DWORD lua_setfieldaob = AoBS::scanner("\x55\x8B\xEC\x83\xEC\x10\x53\x56\x57\x8B\xF1\x52", "xxxxxxxxxxxx");
+DWORD lua_tolstringaob = AoBS::scanner("\x55\x8B\xEC\x53\x56\x57\x8B\xDA", "xxxxxxxx");
+DWORD lua_settopaob = AoBS::scanner("\x55\x8B\xEC\x8B\x55\x0C\x85\xD2\x78\x38", "xxxxxxxxxx");
+DWORD lua_tobooleanaob = AoBS::scanner("\x55\x8B\xEC\xFF\x75\x0C\xFF\x75\x08\xE8\x00\x00\x00\x00\x8B\x48\x08\x85\xC9", "xxxxxxxxxx????xxxxx");
+DWORD lua_pushvalueaob = AoBS::scanner("\x55\x8B\xEC\x56\xFF\x75\x0C\x8B\x75\x08\x56\xE8\x00\x00\x00\x00\x8B\x56\x14\x8B\x08", "xxxxxxxxxxxx????xxxxx");
+DWORD lua_pushnumberaob = AoBS::scanner("\x55\x8B\xEC\x8B\x4D\x08\x0F\x28\x15", "xxxxxxxxx");
+DWORD lua_pushstringaob = AoBS::scanner("\x55\x8B\xEC\x8B\x55\x0C\x85\xD2\x75\x0D", "xxxxxxxxxx");
+DWORD lua_pcallaob = AoBS::scanner("\x55\x8B\xEC\x8B\x45\x14\x83\xEC\x08\x57", "xxxxxxxxxx");
+DWORD lua_pushnilaob = AoBS::scanner("\x55\x8B\xEC\x8B\x4D\x08\x8B\x41\x14\xC7\x40", "xxxxxxxxxxx");
+DWORD lua_nextaob = AoBS::scanner("\x55\x8B\xEC\x56\xFF\x75\x0C\x8B\x75\x08\x56\xE8\x00\x00\x00\x00\x8B\x4E\x14\x83\xE9\x10\x51\xFF\x30\x56", "xxxxxxxxxxxx????xxxxxxxxxx");
+DWORD lua_pushbooleanaob = AoBS::scanner("\x55\x8B\xEC\x8B\x55\x08\x33\xC0\x39\x45\x0C", "xxxxxxxxxxx");
+DWORD lua_tonumberaob = AoBS::scanner("\x55\x8B\xEC\x83\xEC\x10\xFF\x75\x0C\xFF\x75\x08\xE8", "xxxxxxxxxxxxx");
+DWORD lua_pushcclosureaob = AoBS::scanner("\x55\x8B\xEC\x51\x53\x56\x8B\xD9\x89\x55\xFC", "xxxxxxxxxxx");
+DWORD luaD_precallaob = AoBS::scanner("\x55\x8B\xEC\x51\x8B\x45\x0C\x53\x56\x8B\x75\x08\x83\x78\x08\x06", "xxxxxxxxxxxxxxxx");
+DWORD lua_checkstackaob = AoBS::scanner("\x55\x8B\xEC\x8B\x4D\x0C\x56\xBE", "xxxxxxxx");
+DWORD lua_createtableaob = AoBS::scanner("\x55\x8B\xEC\x56\x57\x8B\x7D\x08\x8B\x47\x10\x8D\x57\x10\x8B\x0A\x2B\xC2\x2B\xCA\x8B\x40\x50\x3B\x41\x64\x72\x09\x57\xE8\x00\x00\x00\x00\x83\xC4\x04\xFF\x75\x10\x8B\x77\x14\xFF\x75\x0C\x57\xE8\x00\x00\x00\x00\x89\x06\x83\xC4\x0C\xC7\x46\x00\x00\x00\x00\x00\x83\x47\x14\x10\xA1\x00\x00\x00\x00\x8B\x4D\x04\x2B\xC8\x5F\x5E\x3B\x0D\x00\x00\x00\x00\x72\x44\xA1\x00\x00\x00\x00\x8B\x4D\x04\x2B\xC8\x3B\x0D\x00\x00\x00\x00\x72\x32\xA1\x00\x00\x00\x00\x81\x0D\x00\x00\x00\x00\x00\x00\x00\x00\x81\x0D\x00\x00\x00\x00\x00\x00\x00\x00\xA3\x00\x00\x00\x00\xA1\x00\x00\x00\x00\xC7\x05\x00\x00\x00\x00\x00\x00\x00\x00\xA3\x00\x00\x00\x00\x5D\xC3", "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx????xxxxxxxxxxxxxx????xxxxxxx?????xxxxx????xxxxxxxxx????xxx????xxxxxxx????xxx????xx????????xx????????x????x????xx????????x????xx");
+DWORD lua_insertaob = AoBS::scanner("\x55\x8B\xEC\x53\x8B\x5D\x08\x56\x57\xFF\x75\x0C\x53", "xxxxxxxxxxxxx");
+DWORD lua_newthreadaob = AoBS::scanner("\x55\x8B\xEC\x6A\xFF\x68\x00\x00\x00\x00\x64\xA1\x00\x00\x00\x00\x50\x64\x89\x25\x00\x00\x00\x00\x51\x56\x8B\x75\x08\x8B\x46\x10", "xxxxxx????xx????xxxx????xxxxxxxx");
+DWORD lua_newuserdataaob = AoBS::scanner("\x55\x8B\xEC\x56\x8B\x75\x08\x8B\x46\x10\x8D\x56\x10\x8B\x0A\x2B\xC2\x2B\xCA\x57", "xxxxxxxxxxxxxxxxxxxx");
+DWORD lua_pushthreadaob = AoBS::scanner("\x55\x8B\xEC\x8B\x55\x08\x8B\x42\x14\x89\x10", "xxxxxxxxxxx");
+DWORD lua_rawgetiaob = AoBS::scanner("\x55\x8B\xEC\x56\xFF\x75\x0C\x8B\x75\x08\x56\xE8\x00\x00\x00\x00\xFF\x75\x10", "xxxxxxxxxxxx????xxx");
+DWORD lua_rawsetiaob = AoBS::scanner("\x55\x8B\xEC\x83\xEC\x14\x56\xFF\x75\x0C", "xxxxxxxxxx");
+DWORD lua_rawsetaob = AoBS::scanner("\x55\x8B\xEC\x51\x53\x57\xFF\x75\x0C", "xxxxxxxxx");
+DWORD lua_rawgetaob = AoBS::scanner("\x55\x8B\xEC\x56\xFF\x75\x0C\x8B\x75\x08\x56\xE8\x00\x00\x00\x00\x8B\x4E\x14\x83\xE9\x10\x51\xFF\x30\xE8", "xxxxxxxxxxxx????xxxxxxxxxx");
+DWORD lua_removeaob = AoBS::scanner("\x55\x8B\xEC\x56\xFF\x75\x0C\x8B\x75\x08\x56\xE8\x00\x00\x00\x00\x8D\x48\x10", "xxxxxxxxxxxx????xxx");
+DWORD lua_setfenvaob = AoBS::scanner("\x55\x8B\xEC\x56\x8B\x75\x08\x57\xFF\x75\x0C\xBF", "xxxxxxxxxxxx");
+DWORD lua_setmetatableaob = AoBS::scanner("\x55\x8B\xEC\x56\x8B\x75\x08\x57\xFF\x75\x0C\x56\xE8\x00\x00\x00\x00\x8B\x56\x14", "xxxxxxxxxxxxx????xxx");
+DWORD lua_getmetatableaob = AoBS::scanner("\x55\x8B\xEC\x56\xFF\x75\x0C\x8B\x75\x08\x56\xE8\x00\x00\x00\x00\x8B\x50\x08", "xxxxxxxxxxxx????xxx");
+DWORD lua_xmoveaob = AoBS::scanner("\x55\x8B\xEC\x53\x8B\x5D\x0C\x56\x8B\x75\x08\x3B\xF3\x0F\x84\x00\x00\x00\x00\x57\x8B\x7D\x10\x8B\xC7", "xxxxxxxxxxxxxxx????xxxxxx");
+DWORD ScriptContextVFTableaob = AoBS::scanner("\xC7\x07\x00\x00\x00\x00\xC7\x47\x00\x00\x00\x00\x00\x8B\x87", "xx????xx?????xx");
+DWORD lua_closeaob = AoBS::scanner("\x55\x8B\xEC\x64\xA1\x00\x00\x00\x00\x6A\xFF\x68\x00\x00\x00\x00\x50\x64\x89\x25\x00\x00\x00\x00\x56\x57\x8B\x71\x04", "xxxxx????xxx????xxxx????xxxxx");
+DWORD lua_touserdataaob = AoBS::scanner("\x55\x8B\xEC\xFF\x75\x0C\xFF\x75\x08\xE8\x00\x00\x00\x00\x8B\x48\x08\x83\xE9\x01", "xxxxxxxxxx????xxxxxx");
+DWORD lua_callaob = AoBS::scanner("\x55\x8B\xEC\x8B\x4D\x0C\x57\x8B\x7D\x08\xFF\x75\x10", "xxxxxxxxxxxxx");
+DWORD lua_typeaob = AoBS::scanner("\x55\x8B\xEC\xFF\x75\x0C\xFF\x75\x08\xE8\x00\x00\x00\x00\x3D\x00\x00\x00\x00\x75\x05\x83\xC8\xFF\x5D", "xxxxxxxxxx????x????xxxxxx");
+DWORD luaS_newlstraob = AoBS::scanner("\x55\x8B\xEC\x8B\x45\x10\x8B\xD0", "xxxxxxxx");
+DWORD luaV_gettableaob = AoBS::scanner("\x55\x8B\xEC\x51\x53\x8B\x5D\x0C\x56\x57\xC7\x45\x00\x00\x00\x00\x00\x8B\x4B\x08", "xxxxxxxxxxxx?????xxx");
+DWORD luaV_settableaob = AoBS::scanner("\x55\x8B\xEC\x83\xEC\x18\x53\x8B\x5D\x0C\x56\x57\xC7\x45", "xxxxxxxxxxxxxx");
+DWORD lua_resumeaob = AoBS::scanner("\x55\x8B\xEC\x83\xEC\x10\x56\x8B\x75\x08\xC7\x45", "xxxxxxxxxxxx");
+DWORD index2adraob = AoBS::scanner("\x55\x8B\xEC\x56\x8B\x75\x0C\x85\xF6\x7E\x1E", "xxxxxxxxxxx");
+DWORD luaL_refaob = AoBS::scanner("\x55\x8B\xEC\x83\xEC\x1C\x56\x8B\x75\x08\x57\x8B\x7D\x0C\x8D\x87", "xxxxxxxxxxxxxxxx");
+DWORD lua_settableaob = AoBS::scanner("\x55\x8B\xEC\x56\xFF\x75\x0C\x8B\x75\x08\x56\xE8\x00\x00\x00\x00\x8B\x56\x14\x8D\x4A\xF0", "xxxxxxxxxxxx????xxxxxx");
+DWORD lua_gettableaob = AoBS::scanner("\x55\x8B\xEC\x56\xFF\x75\x0C\x8B\x75\x08\x56\xE8\x00\x00\x00\x00\x8B\x4E\x14\x6A\x01", "xxxxxxxxxxxx????xxxxx");
+DWORD Arithaob = AoBS::scanner("\x55\x8B\xEC\x83\xEC\x20\x56\x8B\x75\x14", "xxxxxxxxxx");
+DWORD luaH_newaob = AoBS::scanner("\x55\x8B\xEC\x56\x57\x8B\x7D\x08\x6A\x08", "xxxxxxxxxx");
+DWORD lua_pushlightuserdataaob = AoBS::scanner("\x55\x8B\xEC\x8B\x55\x08\x8B\x45\x0C\x8B\x4A\x14\x89\x01", "xxxxxxxxxxxxxx");
+DWORD luaL_getmetafieldaob = AoBS::scanner("\x55\x8B\xEC\x56\xFF\x75\x0C\x8B\x75\x08\x56\xE8\x00\x00\x00\x00\x83\xC4\x08\x85\xC0\x74\x57", "xxxxxxxxxxxx????xxxxxxx");
+DWORD lua_yieldaob = AoBS::scanner("\x55\x8B\xEC\x8B\x55\x08\x66\x8B\x42\x34", "xxxxxxxxxx");
+DWORD spawnaob = AoBS::scanner("\x55\x8B\xEC\x6A\xFF\x68\x00\x00\x00\x00\x64\xA1\x00\x00\x00\x00\x50\x64\x89\x25\x00\x00\x00\x00\x83\xEC\x28\x53\x56\x57\xF0\xFF\x05", "xxxxxx????xx????xxxx????xxxxxxxxx");
+DWORD luaL_unrefaob = AoBS::scanner("\x55\x8B\xEC\x53\x8B\x5D\x10\x85\xDB\x78\x47", "xxxxxxxxxxx");
+DWORD lua_topointeraob = AoBS::scanner("\x55\x8B\xEC\xFF\x75\x0C\xFF\x75\x08\xE8\x00\x00\x00\x00\x8B\x48\x08\x49", "xxxxxxxxxx????xxxx");
